@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+body, html{
+    /*height: 100%;*/
+	background-repeat: no-repeat;
+	background-color: #d3d3d3;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.progress-bar {
+    color: #333;
+}

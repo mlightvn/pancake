@@ -1,0 +1,104 @@
+ @charset "UTF-8";
+
+/*==================================================================
+	footer styles
+===================================================================*/
+#footer{
+	background:#FFF;
+	padding:10px 10px 0 10px;
+	margin:0;
+	}
+#fUtil{
+	text-align:right;
+	clear:both;
+	/*background:url(/image/common/line_dot.gif) repeat-x 0% 0% ;*/
+	padding:2px 10px 3px 0;
+	}
+#fUtil li{
+	padding-top:4px;
+	}
+#toback {
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+ul#fn{
+	border:1px solid #DDD;
+	/*background: #FFF url("/image/common/bg_h.gif") repeat-x 0% 0;*/
+	text-align:center;
+	padding:6px 0px;
+	}
+ul#fn li{
+	padding:0px 6px;
+	display:inline;
+	}
+
+#footer p{
+	margin-top:5px;
+	line-height:100%;
+	padding-left:100px;
+	color:#9A9A9A;
+	}
+#cbBox{
+	padding:5px 10px;
+	/*background: #FFF url("/image/common/line_dot.gif") repeat-x 0px 100%;*/
+	clear:both;
+}
+
+#cbBox dl{
+	width:620px;
+	margin-top:6px;
+	float:left;
+	border-right:1px solid #E3E0CE;
+	}
+#cbBox dt{
+	float:left;
+	width:110px;
+	clear:both;
+	color:#666;
+	}
+#cbBox dd{
+	margin-left:110px;
+	padding-right:15px;
+	}
+#cbBox dl ul li{
+	display:inline;
+	}
+#cbBox ul a:link,
+#cbBox ul a:visited{
+	color:#838383;
+	text-decoration:none;
+	}
+#cbBox ul a:hover,
+#cbBox ul a:active{
+	color:#999;
+	text-decoration:underline;
+	}
+
+#fPrivacy{
+	float:right;
+	width:270px;
+}
+#fPrivacy img{
+	float:left;
+	margin:5px 15px 5px 10px;
+}
+#fPrivacy p{
+	padding:7px 0 0 50px;
+	font-size:11px;
+	color:#666;
+}
+#footer p{
+	color:#666;
+	line-height:133%;
+	margin-top:5px;
+	padding-left:0px;
+	}
+
+div#copyright{
+	margin:10px 0 0 170px;
+	font-size:83%;
+}
+div#copyright th{
+	padding:0 15px 0 0;
+	}

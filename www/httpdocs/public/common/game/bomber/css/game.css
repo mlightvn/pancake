@@ -1,0 +1,134 @@
+
+BODY {
+    padding: 0px;
+    margin: 0px;
+    font-family: Lucida,Arial;
+    font-size: 11px;
+    background-color: #000000;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.hero {
+    background-image: url('../img/allplayer.png');
+    background-position: 0px 0px;
+    z-index: 3;
+}
+
+div.wall {
+    background-image: url('../img/wall.png');
+}
+
+div.fakewall {
+    background-image: url('../img/fakewall.png');
+}
+
+div.bomb {
+    z-index: 2;
+    background-image: url('../img/bomb.png');
+}
+
+div.badguy1 {
+    background-image: url('../img/badguy1.png');
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+div.goody {
+
+}
+
+div.intro {
+    background-color: #FFDF80;
+    width: 600px;
+    height: 600px;
+    font-family: Verdana,Arial;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+div.world {
+    width: 600px;
+    height: 600px;
+    /*background-image: url('../img/grass.png');*/
+}
+
+div#border {
+    width: 608px;
+    height: 608px;
+    top: 5px;
+    left: 160px;
+    overflow: hidden;
+    background-image: url('../img/border.png');
+}
+
+div#viewport {
+    background-color: #D2FFA5;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    top: 4px;
+    left: 4px;
+}
+
+div.debug {
+    background-color: #669911;
+    width: 250px;
+    height: 250px;
+    right: 0px;
+    left: auto;
+    z-index: 3;
+}
+div#swfContainer {
+    width: 1px;
+    height: 1px;
+    right: 0px;
+    top: 100px;
+    left: auto;
+}
+
+div#info {
+    width: 220px;
+    height: 608px;
+    left: 772px;
+    top: 5px;
+    color: #ffffff;
+}
+
+span#score {
+    font-weight: 900;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+span#soundLevelContainer {
+    background-color: #ff0000;
+    width: 100%;
+    height: 15px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+span#soundLevelIndicator{
+    background-color: #00ff00;
+    width: 100%;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.adcontainer {
+width: 120px;
+left: 1020px;
+top: 5px;
+}

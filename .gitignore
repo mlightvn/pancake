@@ -1,0 +1,15 @@
+*.sublime-workspace
+*.sublime-project
+*sublime*
+#.env
+#www/httpdocs/.env
+#_db/
+tmp/*
+*/tmp/*
+/tmp/
+www/httpdocs/public/tmp/
+#www/httpdocs/public/image/*
+*.log
+#www/httpdocs/bootstrap/cache/services.php
+#*/cache/*
+

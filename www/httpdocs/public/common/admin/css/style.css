@@ -1,0 +1,433 @@
+@charset "UTF-8";
+
+a:link,
+a:visited{
+	color: #0066CC;
+	outline:none;
+	text-decoration:none;
+}
+a:hover,
+a:active{
+	color: #636;
+	text-decoration:underline;
+	}
+
+
+body{
+	/*background:url(/image/common/bg_body.gif) repeat-x 0 0 #F0EBE1;*/
+	}
+#container{
+	width:950px;
+	margin:0px auto;
+	position:relative;
+	}	
+
+/*==================================================================
+	Header styles
+===================================================================*/
+#header {
+	height:124px;
+	margin:0 auto 7px auto;
+	}
+#header p{
+	position:absolute;
+	left:350px;
+	top:39px;
+	font-size:12px;
+	/*background: url("/common/image/icon/client.gif") no-repeat 0 0;*/
+	padding-left:20px;
+	}
+a#logo{
+	position:absolute;
+	top:25px;
+	left:0px;
+	text-decoration:none;
+	}
+
+ul#headNavigation{
+	position:absolute;
+	top:10px;
+	right:0px;
+	font-size:11px;
+	}
+ul#headNavigation li{
+	display:inline;
+	font-size:11px;
+	margin-left:5px;
+	padding:3px 0px;
+}
+ul#headNavigation li#headHome{
+	padding-left:17px;
+	/*background:url("/common/image/icon/home.gif") no-repeat 0 25%;*/
+}
+ul#headNavigation li#headUserHome{
+	padding-left:16px;
+	/*background:url("/common/image/icon/userhome.gif") no-repeat 0 50%;*/
+}
+ul#headNavigation li#headLogout{
+	padding-left:13px;
+	/*background:url("/common/image/icon/icon_logout.gif") no-repeat 0 50%;*/
+}
+ul#headNavigation li#headContact{
+	padding-left:17px;
+	/*background:url("/image/icon/icon_inquiry.gif") no-repeat 0 50%;*/
+}
+ul#headNavigation li#headHelp{
+	padding-left:15px;
+	/*background:url("/common/image/icon/icon_help.gif") no-repeat 0 50%;*/
+}
+ul#headNavigation li#ssl{
+	/*background:url("/common/image/common/lock.gif") no-repeat 5px 50%;*/
+	padding-left:20px;
+	}
+ul#headNavigation li#ssl a#sslOn{
+	/*background:url("/common/image/common/lock_on.gif") no-repeat 100% 50%;*/
+	padding:0 55px 0 0 ;
+	}
+ul#headNavigation li#ssl a#sslOff{
+	/*background:url("/common/image/common/lock_off.gif") no-repeat 100% 50%;*/
+	padding:0 55px 0 0 ;
+	}
+
+
+
+
+/*==================================================================
+	contents styles
+===================================================================*/
+
+#contents{
+	background:#FFF;
+	padding:10px;
+	}
+
+ol.bl{
+	position:absolute;
+	left:0px;
+	top:105px;
+	font-size:11px;
+	width:100%;
+	height:25px;
+	line-height:24px;
+	display:block;
+	background:none;
+	}
+
+/*==================================================================
+	sidebar styles
+===================================================================*/
+
+#sidebar{
+	float:left;
+	width:180px;
+	}
+#sidebar h4{
+	}
+#sidebar .section{
+	margin-bottom:12px;
+	background-color:#FFF;
+	}
+
+#sidebar .headline{
+	border:1px solid #DDD;
+	/*background: #FFF url("/common/image/common/bg_h.gif") repeat-x 0% 100%;*/
+	padding:1px;
+	line-height:100%;
+	font-weight:bold;
+	padding:7px 0px 6px 5px;
+	}
+#sidebar .headline span{
+	}
+
+
+
+#sidebar .section .inner{
+	border:1px solid #E3E0CE;
+	border-top:none;
+	padding:5px;
+	}
+#sidebar .section li a{
+	/*background:url("/common/image/icon/icon_li.gif") no-repeat 0% center;*/
+	padding-left:10px;
+	}
+
+#sidebar .box{
+	border:1px solid #E3E0CE;
+	padding:5px;
+	margin-bottom:10px;
+	}
+
+/*==================================================================
+	main styles
+===================================================================*/
+
+#main{
+	float:right;
+	width:735px;
+	}
+
+#main .headline{
+	/*background: #FFF url("/common/image/common/bg_h.gif") repeat-x 0% 100%;*/
+	font-size:110%;
+	font-weight:bold;
+	padding:7px;
+	margin-bottom:10px;
+	}
+#main .headline span{
+	display:block;
+	padding:0 0 0 7px;
+	border-left:3px solid #1DB2C2;
+	}
+
+#main h2{
+	font-weight:bold;
+	/*background:#FFF url("/common/image/common/line_dot.gif") repeat-x 0% 100%;*/
+	padding-bottom:2px;
+	margin-bottom:10px;
+}
+
+#main .submit{
+	background-color:#E1F0FD;
+	padding:10px 0;
+	margin-botom:20px;
+	}
+#main p{
+	margin-bottom:12px;
+	}
+
+.searchBox{
+	padding:10px;
+	border:3px double #E3E0CE;
+	margin-bottom:10px;
+	}
+.message{
+	border:5px solid #F2F2F2;
+	margin:13px 0px;
+	padding:10px;
+	}
+.message p{
+	margin:0px;
+	}
+
+#main table .formfield{
+	width:300px;
+	}
+#main table textarea{
+	width:100%;
+	height:400px;
+	}
+
+ul.listMenu{
+	margin-bottom:20px;
+}
+ul.listMenu li{
+	display:inline;
+	border:1px solid #E3E0CE;
+	margin-right:3px;
+	background-color:#E5EFF8;
+	font-weight:bold;
+	padding:5px 15px;
+}
+ul.listMenu li a{
+	font-weight:normal;
+}
+
+
+/*	.point styles
+-------------------------------------------------------------------*/
+.point{
+	background-color:#EEF7FF;
+	border:1px solid #B0DAFF;
+	margin-bottom:20px;
+	padding:10px 10px 0;
+}
+
+.point h3 {
+	background-color:#79BFFF;
+	color:#FFFFFF;
+	margin-bottom:10px;
+	padding:3px 3px 3px 5px;
+}
+.point h3, .point h4 {
+	font-weight:bold;
+	margin:0;
+	padding:0 5px;
+}
+
+
+/*==================================================================
+	sidebar styles
+===================================================================*/
+
+#loginBlk{
+	text-align:left;
+}
+#loginBlk h3 {
+	margin:5px 3px 0;
+	color:#333;
+	font-size:116%;
+}
+#loginBlk .dataDetail{
+	margin-top:10px;
+	padding:20px 5px;
+}
+	#loginBlk table{
+		padding:20px 20px;
+	}
+	#loginBlk th{
+		padding:10px 0 10px 1em;
+		white-space:nowrap;
+	}
+	#loginBlk th,
+	#loginBlk td{
+		border:none;
+	}
+	
+#logID { width:90%;}
+#logPW { width:90%;}
+#sendPW{ width:70%;}
+
+.remind{
+	margin-bottom:10px;
+	padding:15px 20px;
+}
+.remind p{
+	margin:0;
+	font-weight:bold;
+}
+.remind #sendPW{
+	margin:5px 0 0 0px;
+	float:left;
+}
+.remindTxt{
+	padding:10px 20px;
+	text-align:center;
+}
+.remindTxt span{
+	font-size:83%;
+}
+
+
+/* searchCount
+-----------------------------------------------------------------------------  */
+#searchCount{
+	/*background:url("/common/image/corp/search_count_bg.gif") no-repeat 0 0;*/
+	line-height:28px;
+	padding-left:10px;
+	position:relative;
+	height:28px;
+	}
+#searchCount strong{
+	color:#CC0000;
+	}
+
+#searchCount span{
+	position:absolute;
+	top:0px;
+	right:10px;
+	}
+
+/* link
+-----------------------------------------------------------------------------  */
+a.csv{
+	/*background:url("/common/image/icon/file_download.gif") no-repeat 0 50%;*/
+	padding:10px 0 10px 21px;
+	}
+a.excel{
+	/*background:url("/common/image/icon/excel.gif") no-repeat 0 50%;*/
+	padding:10px 0 10px 21px;
+	}
+
+
+/*==================================================================
+	login styles
+===================================================================*/
+
+#p-login #contents{
+	background-image:none;
+	}
+#p-login #sidebar{
+	display:none;
+	}
+#p-login #main{
+	float:none;
+	width:760px;
+	margin:0px auto;
+	}
+
+
+
+/*==================================================================
+	help styles
+===================================================================*/
+
+#p-help #main h2{
+	color:#339900;
+}
+#p-help #main p a{
+	/*background:#FFF url("/common/image/icon/li.gif") no-repeat scroll 4px 50%;*/
+	padding-left:16px;
+}
+
+
+/*==================================================================
+	support styles
+===================================================================*/
+
+.reply{
+	padding:10px;
+	background-color:#F6F6F6;
+	margin-bottom:10px;
+	border:1px solid #E3E0CE;
+}
+.reply ul{
+	border-bottom:1px solid #E3E0CE;
+	margin-bottom:10px;
+	padding-bottom:2px;
+}
+.reply li{
+	display:inline;
+	padding-right:5px;
+}
+
+/*==================================================================
+	link styles
+===================================================================*/
+.inner a img{
+	margin-left:2px;
+	vertical-align:baseline;
+}
+
+/*==================================================================
+	geocode styles
+===================================================================*/
+#status{
+	font-weight:bold;	
+}
+
+
+/*==================================================================
+	access styles
+===================================================================*/
+.access{
+	padding:0 5px 0 0;
+	color:#006600;
+	}
+	
+	
+
+/*	corpBnr
+-------------------------------------------------------------------*/
+.corpBnr{
+	padding:20px 0;
+	text-align:center;
+	background:#FCFCFC;
+}
+.corpBnr img{
+	margin:auto;
+	vertical-align:bottom;
+}
+
+.require {
+	color: #FF5976;
+}
