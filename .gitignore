@@ -8,7 +8,7 @@ tmp/*
 */tmp/*
 /tmp/
 www/httpdocs/public/tmp/
-#www/httpdocs/public/image/*
+www/httpdocs/public/image/*
 *.log
 #www/httpdocs/bootstrap/cache/services.php
 #*/cache/*
