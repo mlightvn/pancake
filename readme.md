@@ -16,11 +16,13 @@ This eCommerce site was developed during my free time and I will be glad if some
 [Donate with paypal](https://www.paypal.me/ngocnam)
 
 Any amount would be big help to me.
+
 Thank you so much.
 
 <div id='my_note'/>
 # My note
 I pushed almost code in Controller class, in order to make new page, just copy for extending and take few hour to finish: List page, insert, update, display on user screen.
+
 Now user layout is not really beautiful, I hope I can make it better or someone can help me.
 
 <div id='setup'/>
@@ -34,7 +36,7 @@ This project was made from Laravel Framework 5. And was installed some component
 > ...
 
 Setup virtual host for this code.
-For example:
+
 ```
 <VirtualHost *:80>
     DocumentRoot "/var/www/vhosts/pancake/www/httpdocs/public"
@@ -50,6 +52,7 @@ For example:
 ```
 
 And copy this code to folder "pancake".
+
 > "/var/www/vhosts/pancake"
 
 <div id='user_screen'/>
@@ -68,7 +71,9 @@ For example:
 <div id='sliders'/>
 ### Sliders
 `/www/httpdocs/resources/views/_include/user_slide.blade.php`
+
 Images are saving in "public/image/promotion/" folder.
+
 This script of slider I copied from the Internet.
 
 <div id='partner_sliders'/>
