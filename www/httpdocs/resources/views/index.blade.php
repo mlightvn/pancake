@@ -14,7 +14,7 @@
 		<div class="w3-row">
 			<div class="w3-col s12 m4 l3">
 				<ul class="w3-ul w3-hoverable">
-					<a href="/search"><li>Tất cả</li></a>
+					<a href="/search"><li>All</li></a>
 					@foreach ($data['category_list'] as $category)
 					<a href="/category/{{ ($category->slug) ? $category->slug : $category->id }}"><li>{{ $category->name }}</li></a>
 					@endforeach

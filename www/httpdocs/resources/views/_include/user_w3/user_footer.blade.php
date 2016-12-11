@@ -13,13 +13,13 @@ $(function() {
 		<div class="w3-container w3-border-top">
 			<div class="w3-row">
 				<div class="w3-col m4 l3">
-					<h4>Giới thiệu</h4>
+					<h4>Introduction</h4>
 					<ul>
-						<li><a href="/lien-lac">Liên lạc</a></li>
+						<li><a href="/lien-lac">Contact</a></li>
 					</ul>
 				</div>
 				<div class="w3-col m4 l3">
-					<h4>Đối tác</h4>
+					<h4>Partners</h4>
 					<ul>
 						<li><a target="_blank" href="//www.abc.vn">ABC</a></li>
 						<li><a target="_blank" href="//def.com">DEF</a></li>
@@ -27,7 +27,7 @@ $(function() {
 					</ul>
 				</div>
 				<div class="w3-col m4 l3">
-					<div class="fb-page" data-href="https://www.facebook.com/japanese.job/?fref=ts" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/japanese.job/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/japanese.job/?fref=ts">ベトナムでの日本語関係の仕事の募集</a></blockquote></div>
+					<div class="fb-page" data-href="https://www.facebook.com/rakuhin/?ref=bookmarks" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/rakuhin/?ref=bookmarks" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/rakuhin/?ref=bookmarks">rakuhin</a></blockquote></div>
 
 				</div>
 
@@ -45,11 +45,11 @@ $(function() {
 		<footer class="w3-center w3-green">
 		<br>
 			<form class="form-inline">
-				Đăng ký nhận tin:
+				Mail Magazine:
 				<input type="email" class="form-control" size="50" placeholder="Email Address">
-				<button class="w3-text-black">Đăng ký</button>
+				<button class="w3-text-black">Register</button>
 			</form>
-			<p>Copyright © 2016 {{ env('APP_NAME') }} All right reserved.</p>
+			<p>Copyright © 2016 Rakuhin.com All right reserved.</p>
 		</footer>
 
 	</body>

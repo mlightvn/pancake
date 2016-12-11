@@ -12,18 +12,18 @@
 <div class="w3-container">
 	<div class="w3-row">
 		<div class="w3-col">
-			<a href="/"><i class="fa fa-home"></i> Trang chủ</a>
+			<a href="/"><i class="fa fa-home"></i> Homepage</a>
 			&gt;
 			@if ($product_form->company_slug)
 			<a href="/site/{{ $product_form->company_slug }}/san-pham">{{ $product_form->company_name }}</a>
 			&gt;
 			@endif
 			@if (isset($product_form->category))
-			<a href="/search">Tìm kiếm</a>
+			<a href="/search">Search</a>
 			&gt;
 			{{ $product_form->category->name }}
 			@else
-			<a>Tìm kiếm</a>
+			<a>Search</a>
 			@endif
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 <div class="w3-container w3-row">
 	<div class="w3-col">
 		<ul class="w3-navbar w3-bottombar w3-border-green">
-			<li{!! (isset($product_form->category_slug) ? '' : ' class="w3-green"' ) !!}><a href="/search" class="w3-text-black">Tất cả</a></li>
+			<li{!! (isset($product_form->category_slug) ? '' : ' class="w3-green"' ) !!}><a href="/search" class="w3-text-black">All</a></li>
 			@foreach ($category_list as $category)
 			<li{!! ((isset($product_form->category_slug) && ($product_form->category_slug == $category->slug)) ? ' class="w3-green"' : '' ) !!}><a href="/category/{{ $category->slug }}" class="{!! ((isset($product_form->category_slug) && ($product_form->category_slug == $category->slug)) ? 'w3-text-white' : 'w3-text-black' ) !!}">{{ $category->name }}</a></li>
 			@endforeach
@@ -57,9 +57,9 @@
 		<div class="w3-col s12 m12 l12">
 			<h3>
 			@if ($product_form->company_slug)
-			Sản phẩm của {{ $product_form->company_name }}
+			Products of {{ $product_form->company_name }}
 			@else
-			Kết quả tìm kiếm
+			Search result
 			@endif
 			{{ $product_form->fromRecord }} ~ {{ $product_form->toRecord }} / {{ ((isset($product_list)) ? $product_list->total() : "0") }}
 			</h3>
@@ -68,7 +68,7 @@
 	<div class="w3-row-padding">
 		@if ((!isset($product_list)) || ( count($product_list) == 0))
 		<div class="w3-col s12 m12 l12">
-			Sản phẩm không tồn tại.
+			Product does not exist.
 		</div>
 		@else
 
