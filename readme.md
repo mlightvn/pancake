@@ -62,7 +62,9 @@ And copy this code to folder "pancake".
 <div id='main_menu'/>
 ### Main menu:
 Data was retrieved from "categories" table
+
 For example:
+
 > Small size
 > Medium size
 > Large size

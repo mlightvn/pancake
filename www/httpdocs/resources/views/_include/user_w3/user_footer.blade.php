@@ -23,11 +23,11 @@ $(function() {
 					<ul>
 						<li><a target="_blank" href="//www.abc.vn">ABC</a></li>
 						<li><a target="_blank" href="//def.com">DEF</a></li>
-						<li><a target="_blank" href="//www.gffgf.vn">gffgf.vn</a></li>
+						<li><a target="_blank" href="//www.google.com.vn">google.com.vn</a></li>
 					</ul>
 				</div>
 				<div class="w3-col m4 l3">
-					<div class="fb-page" data-href="https://www.facebook.com/rakuhin/?ref=bookmarks" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/rakuhin/?ref=bookmarks" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/rakuhin/?ref=bookmarks">rakuhin</a></blockquote></div>
+					<div class="fb-page" data-href="https://www.facebook.com/pages/Pancakes/110911055600600?fref=ts&rf=108432965876334" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/pages/Pancakes/110911055600600?fref=ts&rf=108432965876334" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/Pancakes/110911055600600?fref=ts&rf=108432965876334">PanCake</a></blockquote></div>
 
 				</div>
 
@@ -49,7 +49,7 @@ $(function() {
 				<input type="email" class="form-control" size="50" placeholder="Email Address">
 				<button class="w3-text-black">Register</button>
 			</form>
-			<p>Copyright © 2016 Rakuhin.com All right reserved.</p>
+			<p>Copyright © 2016 Nguyen Ngoc Nam. All right reserved.</p>
 		</footer>
 
 	</body>

@@ -1,23 +1,102 @@
-## Laravel PHP Framework
+# Table of Contents
+1. [My note](#my_note)
+2. [Setup](#setup)
+3. [User screen](#user_screen)
+4. [Homepage](#homepage)
+5. [Main menu](#main_menu)
+6. [Sliders](#sliders)
+7. [Partner slider](#partner_sliders)
+8. [Products area](#products_area)
+9. [Other pages](#other_pages)
+10. [Admin page](#admin_pages)
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+# Support Me
+This eCommerce site was developed during my free time and I will be glad if somebody will support me.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+[Donate with paypal](https://www.paypal.me/ngocnam)
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Any amount would be big help to me.
 
-## Official Documentation
+Thank you so much.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+<div id='my_note'/>
+# My note
+I pushed almost code in Controller class, in order to make new page, just copy for extending and take few hour to finish: List page, insert, update, display on user screen.
 
-## Contributing
+Now user layout is not really beautiful, I hope I can make it better or someone can help me.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+<div id='setup'/>
+# Setup
+This project was made from Laravel Framework 5. And was installed some components:
+> laravel-debugbar
+> socialite
+> ckeditor
+> html
+> image
+> ...
 
-### License
+Setup virtual host for this code.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+```
+<VirtualHost *:80>
+    DocumentRoot "/var/www/vhosts/pancake/www/httpdocs/public"
+    ServerName pancake.com
+    ErrorLog "/var/log/pancake.com.error.log"
+    CustomLog "/var/log/pancake.com.access.log" combined
+    <Directory "/var/www/vhosts/pancake/www/httpdocs">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+
+And copy this code to folder "pancake".
+
+> "/var/www/vhosts/pancake"
+
+<div id='user_screen'/>
+# User screen
+<div id='homepage'/>
+## Homepage
+<div id='main_menu'/>
+### Main menu:
+Data was retrieved from "categories" table
+
+For example:
+
+> Small size
+> Medium size
+> Large size
+> Others
+
+<div id='sliders'/>
+### Sliders
+`/www/httpdocs/resources/views/_include/user_slide.blade.php`
+
+Images are saving in "public/image/promotion/" folder.
+
+This script of slider I copied from the Internet.
+
+<div id='partner_sliders'/>
+### Partner slider
+Same as above
+
+<div id='products_area'/>
+### Products area
+They are showing 8 products from each Category.
+
+<div id='other_pages'/>
+## Other pages
+* Search/list page
+* Product detail
+* Partner/shops pages
+* Contact
+* ...
+
+<div id='admin_pages'/>
+# Admin page
+* Categories
+* Shops
+* Products
+* Users

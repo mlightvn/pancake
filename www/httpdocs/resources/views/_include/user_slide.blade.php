@@ -118,38 +118,6 @@
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 380px; overflow: hidden;">
             <div data-p="112.50" style="display: none;">
-                <a href="http://ho.lazada.vn/SHINLV" target="_blank">
-                <img data-u="image" src="/image/promotion/lazada/20161011.women_day.png" alt="Lazada: Đặc quyền phái đẹp - Sẵn sàng tỏa sáng" />
-                </a>
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <a href="http://ho.lazada.vn/SHIROr" target="_blank">
-                <img data-u="image" src="https://media.go2speed.org/brand/files/lazada/6345/VN%20FA%20Shooz%20Best%20Shoes%20(1).jpg" alt="Lazada: Shooz - Khuyến mãi hấp dẫn." />
-                </a>
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <a href="http://ho.lazada.vn/SHIRPD" target="_blank">
-                <img data-u="image" src="http://vn-live-01.slatic.net/p/bo-may-tap-bung-six-pack-care-den-phoi-cam-may-massage-xung-dien-4-mieng-dan-health-herald-8320-3024162-35376038de78404fd21977a46808bb32-webp-zoom.jpg" alt="Lazada: Bộ Máy tập bụng Six Pack Care." />
-                </a>
-            </div>
-
-            @if(date("Ymd") <= "20161023")
-            <div data-p="112.50" style="display: none;">
-                <a href="http://zanado.com/20-10-ton-vinh-phai-dep-viet-2016.html?aff=rakuhin" target="_blank">
-                <img data-u="image" src="http://a4vn.com/media/landing/20161015/banner_full.jpg" alt="Zanado: Shopping thả ga – Nhận quà vô giá" />
-                </a>
-            </div>
-            @endif
-
-            @if(date("Ymd") <= "20161130")
-            <div data-p="112.50" style="display: none;">
-                {{-- http://www.lazada.vn/ --}}
-                <a href="http://ho.lazada.vn/SHIRPR" target="_blank">
-                <img data-u="image" src="http://vn-live.slatic.net/cms/2016/msite-voucher/BELLA85.jpg" alt="Lazada: Voucher may mắn." />
-                </a>
-            </div>
-            @endif
-            <div data-p="112.50" style="display: none;">
                 <a href="https://www.hotdeal.vn/ho-chi-minh/campaign/my-pham-han-quoc/?name=campaign_myphamhanquoc&info=promotionhot" target="_blank">
                 <img data-u="image" src="https://s3-hd.vinacdn.com/original/2016/9/2/57e5fb887afff-880x330.png" alt="Hotdeal" />
                 </a>

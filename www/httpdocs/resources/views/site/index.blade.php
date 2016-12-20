@@ -3,7 +3,7 @@
 		'id'		=> 'site_list',
 
 		'fb_title'			=> 'Thông tin đối tác',
-		'fb_description'	=> 'Danh sách các đối tác của Rakuhin.com',
+		'fb_description'	=> 'Danh sách các đối tác của PanCake',
 		'fb_img_url'		=> env('APP_URL') . env('FB_IMG_PATH'),
 	]
 )

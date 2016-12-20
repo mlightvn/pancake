@@ -56,21 +56,12 @@
 				</a>
 			</div>
 			<div class="w3-col s12 m7 l7">
-			@if(date("Ymd") <= "20161023")
-				<a href="http://zanado.com/20-10-ton-vinh-phai-dep-viet-2016.html?aff=rakuhin" target="_blank">
-					<div class="thumbnail w3-hover-shadow">
-					<p class="w3-small w3-text-green">※Click vào link thì bạn sẽ tới trang của Zanado.</p>
-					<img src="http://a4vn.com/media/landing/20161015/banner_full.jpg" alt="Zanado: Shopping thả ga – Nhận quà vô giá" width="100%">
-					</div>
-				</a>
-			@else
 				<a href="http://www.nguyenkim.com/khuyen-mai-chuong-trinh-le-hoi-nhat-ban.html?position=banner-scroll-le-hoi-nhat-ban" target="_blank">
 					<div class="thumbnail w3-hover-shadow">
 					<p class="w3-small w3-text-green">※Click vào link thì bạn sẽ tới trang của Nguyễn Kim.</p>
 					<img src="https://static.nguyenkimmall.com/images/companies/_1/Design/banner/img-thang-nhat-ban-1.png" alt="Nguyễn Kim: KHUYẾN MÃI CHƯƠNG TRÌNH LỄ HỘI NHẬT BẢN" width="100%">
 					</div>
 				</a>
-			@endif
 				<br><br>
 			</div>
 		</div>
