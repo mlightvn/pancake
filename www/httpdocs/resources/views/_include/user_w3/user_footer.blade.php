@@ -27,16 +27,16 @@ $(function() {
 					</ul>
 				</div>
 				<div class="w3-col m4 l3">
-					<div class="fb-page" data-href="https://www.facebook.com/pages/Pancakes/110911055600600?fref=ts&rf=108432965876334" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/pages/Pancakes/110911055600600?fref=ts&rf=108432965876334" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/Pancakes/110911055600600?fref=ts&rf=108432965876334">PanCake</a></blockquote></div>
+					<div class="fb-page" data-href="https://www.facebook.com/Nihongonomori/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/Nihongonomori/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Nihongonomori/">PanCake</a></blockquote></div>
 
 				</div>
 
 				<div class="w3-col m4 l3">
-					<h4>Payment acception</h4>
+					<h4>Others</h4>
 					<ul>
-						<li><img src="#" alt="Paypal"></li>
-						<li><img src="#" alt="Visa"></li>
-						<li><img src="#" alt="MasterCard"></li>
+						<li>ABC</li>
+						<li>DEF</li>
+						<li>GHI</li>
 					</ul>
 				</div>
 			</div>
