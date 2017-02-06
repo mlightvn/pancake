@@ -2,7 +2,7 @@
 *.sublime-project
 *sublime*
 #.env
-#www/httpdocs/.env
+www/httpdocs/.env
 #_db/
 tmp/*
 */tmp/*
