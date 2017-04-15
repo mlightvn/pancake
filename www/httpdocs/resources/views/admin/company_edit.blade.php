@@ -6,15 +6,19 @@
 		'text_editor'	=> true,
 	]
 )
+<div class="container-fluid">
+	<div class="row">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="/admin/">管理画面</a></li>
+			<li class="breadcrumb-item"><a href="/admin/category">Shop list</a></li>
+			<li class="breadcrumb-item active">{{ (isset($model->name) ? ($model->name . "の") : "") }}{{ $model->mode_label }}</li>
+		</ol>
+	</div>
+</div>
 
-<ol class="bl">
-	<li><a href="/admin/">管理画面</a></li>
-	<li><em>&gt;</em></li>
-	<li><a href="/admin/company/list">会社一覧</a></li>
-	<li><em>&gt;</em></li>
-	<li><em>{{ (isset($model->name) ? ($model->name . "の") : "") }}{{ $model->mode_label }}</em></li>
-</ol>
-<h1 class="headline"><span>{{ (isset($model->name) ? ($model->name . "の") : "") }}{{ $model->mode_label }}</span></h1>
+<h1><span>{{ (isset($model->name) ? ($model->name . "の") : "") }}{{ $model->mode_label }}</span></h1>
+
+<br>
 
 @if ($model->id)
 <ul class="tab clearfix">
@@ -23,35 +27,33 @@
 </ul>
 @endif
 
-{!! Form::model($model, ['class'=>'form-inline']) !!}
+{!! Form::model($model) !!}
 {!! Form::hidden('id') !!}
 
 @include('_include.error_message')
 
-<table class="sheet">
-<col width="160px">
-	<thead>
+<table class="table table-bordered table-hover">
+	<thead class="w3-dark-grey">
 	<tr>
 		<th colspan="2">ログイン情報</th>
 	</tr>
 	</thead>
 
 	<tr>
-		<th style="width:160px;">{!! Form::label('email', 'メール') !!}</th>
+		<th class="w3-light-grey">{!! Form::label('email', 'メール') !!}</th>
 		<td>
-		<span class="guide">メールアドレスを入力して下さい。エントリー通知先にメールアドレスが無い場合にはこちらに配信されます。</span>
-		{!! Form::email('email', null, ["style"=>"width:300px;", 'placeholder'=>'email@example.com']) !!}
+		{!! Form::email('email', null, ['class'=>'form-control', 'placeholder'=>'email@example.com']) !!}
 		<span class="example">email@example.com</span></td>
 	</tr>
 
 	<tr>
-		<th>{!! Form::label('password', 'パスワード') !!}</th>
-		<td>{!! Form::password('password', null, ["style"=>"width:300px;", 'placeholder'=>'Password']) !!}</td>
+		<th class="w3-light-grey">{!! Form::label('password', 'パスワード') !!}</th>
+		<td>{!! Form::password('password', ['class'=>'form-control', 'placeholder'=>'Password']) !!}</td>
 	</tr>
 
 	<tr>
-		<th>{!! Form::label('status', '状態') !!}</th>
-		<td>{!! Form::select('status', \Config::get('constants.STATUS')) !!}</td>
+		<th class="w3-light-grey">{!! Form::label('status', '状態') !!}</th>
+		<td>{!! Form::select('status', \Config::get('constants.STATUS'), NULL, ['class'=>'form-control']) !!}</td>
 	</tr>
 
 </table>
@@ -65,31 +67,31 @@
 	</thead>
 	<tr>
 		<th style="width:160px;">{!! Form::label('name', '店名') !!}</th>
-		<td>{!! Form::text('name', null, ["style"=>"width:300px;", 'placeholder'=>'店名']) !!}</td>
+		<td>{!! Form::text('name', null, ['class'=>'form-control', 'placeholder'=>'店名']) !!}</td>
 	</tr>
 	<tr>
 		<th style="width:160px;">{!! Form::label('slug', 'Slug') !!}</th>
-		<td>{!! Form::text('slug', null, ["style"=>"width:300px;", 'placeholder'=>'company']) !!}</td>
+		<td>{!! Form::text('slug', null, ['class'=>'form-control', 'placeholder'=>'company']) !!}</td>
 	</tr>
 
 	<tr>
-		<th>{!! Form::label('website', 'Website') !!}</th>
-		<td>{!! Form::text('website', null, ["style"=>"width:300px;", 'placeholder'=>'Website']) !!}</td>
+		<th class="w3-light-grey">{!! Form::label('website', 'Website') !!}</th>
+		<td>{!! Form::text('website', null, ['class'=>'form-control', 'placeholder'=>'Website']) !!}</td>
 	</tr>
 	<tr>
-		<th>{!! Form::label('president', '連絡先') !!}</th>
-		<td>{!! Form::text('president', null, ["style"=>"width:300px;", 'placeholder'=>'Contact person']) !!}</td>
+		<th class="w3-light-grey">{!! Form::label('president', '連絡先') !!}</th>
+		<td>{!! Form::text('president', null, ['class'=>'form-control', 'placeholder'=>'Contact person']) !!}</td>
 	</tr>
 
 	<tr>
-		<th>{!! Form::label('contact_tel', '電話番号') !!}</th>
+		<th class="w3-light-grey">{!! Form::label('contact_tel', '電話番号') !!}</th>
 		<td>
 			{!! Form::text('contact_tel', null, ["style"=>"width:180px;"]) !!}
 			<span class="example">{[#EXAMPLE_PHONE#]}</span>
 		</td>
 	</tr>
 	<tr>
-		<th>{!! Form::label('contact_phone', '携帯番号') !!}</th>
+		<th class="w3-light-grey">{!! Form::label('contact_phone', '携帯番号') !!}</th>
 		<td>
 			{!! Form::text('contact_phone', null, ["style"=>"width:180px;"]) !!}
 			<span class="example">{[#EXAMPLE_PHONE#]}</span>
@@ -97,16 +99,16 @@
 	</tr>
 
 	<tr>
-		<th>{!! Form::label('employee_number', '人数') !!}</th>
-		<td>{!! Form::text('employee_number', null, ["style"=>"width:300px;"]) !!}</td>
+		<th class="w3-light-grey">{!! Form::label('employee_number', '人数') !!}</th>
+		<td>{!! Form::text('employee_number', null, ['class'=>'form-control']) !!}</td>
 	</tr>
 
 	<tr>
-		<th>{!! Form::label('description', '概要') !!}</th>
+		<th class="w3-light-grey">{!! Form::label('description', '概要') !!}</th>
 		<td>{!! Form::textarea('description') !!}</td>
 	</tr>
 	<tr>
-		<th>{!! Form::label('note', '備考') !!}</th>
+		<th class="w3-light-grey">{!! Form::label('note', '備考') !!}</th>
 		<td>{!! Form::textarea('note') !!}</td>
 	</tr>
 
