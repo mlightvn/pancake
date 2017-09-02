@@ -16,10 +16,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="/common/admin/css/common.css" charset="utf-8">
 <link rel="stylesheet" type="text/css" media="all" href="/common/admin/css/screen.css" charset="utf-8">
 
-
-@if (isset($id) && $id == 'list')
+<link rel="stylesheet" href="/w3/w3.css">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
-@endif
 
 
 @if (isset($is_upload))
