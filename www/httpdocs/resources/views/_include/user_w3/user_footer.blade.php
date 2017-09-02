@@ -27,7 +27,7 @@ $(function() {
 					</ul>
 				</div>
 				<div class="w3-col m4 l3">
-					<div class="fb-page" data-href="https://www.facebook.com/Nihongonomori/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/Nihongonomori/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Nihongonomori/">PanCake</a></blockquote></div>
+					<div class="fb-page" data-href="https://www.facebook.com/rakuhin/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-hide-cover="true"><blockquote cite="https://www.facebook.com/rakuhin/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/rakuhin/">Rakuhin</a></blockquote></div>
 
 				</div>
 
