@@ -1,4 +1,4 @@
-Demo website: [https://pancake.coxanh.net/](https://pancake.coxanh.net/)
+Demo website: [https://rakupons.net/](https://rakupons.net/)
 
 # Table of Contents
 1. [My note](#my_note)
@@ -15,7 +15,7 @@ Demo website: [https://pancake.coxanh.net/](https://pancake.coxanh.net/)
 # Support Me
 This eCommerce site was developed during my free time and I will be glad if somebody will support me.
 
-[Donate with paypal](https://www.paypal.me/ngocnam)
+[Donate with paypal](https://www.paypal.me/rakujin)
 
 Any amount would be big help to me.
 
